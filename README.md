@@ -3,8 +3,7 @@ Well-Separated Pair Decomposition (WSPD) is a well-known geometric decomposition
 
 Here we show how to compute WSPD for points in R^d and for any dimension d. Instead ofcomputing WSPD directly in R^d, we propose to learn a nonlinear mapping and transform the data to a lower dimensional space R^d′, d′= 2 or d′= 3, since only in such a low dimensional spaces WSPD can be efficiently computed. Furthermore, we estimate the quality of computed WSPD in the original R^d space. Our experiments show that for different synthetic and real-world datasets our approach allow that a WSPD of size O(n) is still computed for points in R^d for dimensions d much larger than two or three in practice.
 
-![alt text](https://github.com/dmatijev/high_dim_wspd/blob/main/wspd_dumbells.png?raw=true)
-
+![fdsaf fd af asfd saalt text](https://github.com/dmatijev/high_dim_wspd/blob/main/wspd_dumbells.png?raw=true)
 ![alt text](https://github.com/dmatijev/high_dim_wspd/blob/main/wspd_vs_nnwspd.png?raw=true)
 
 In both figures, the $x$-coordinate stands for the dimension, while the $y$ coordinate stands for the number of dumbbells divided by the size of all pairwise distances, i.e., $n(n-1)/2$. (left) Size of the dataset is $n = 5000$. Dumbbells 
